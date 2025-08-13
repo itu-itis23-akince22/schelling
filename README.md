@@ -51,10 +51,10 @@ This project is designed to:
 cabal update
 cabal build
 cabal run schelling -- cells.txt cells_out.txt
-###2️⃣ Run with Julia only
+### 2️⃣ Run with Julia only
 julia schelling.jl
-###3️⃣ Run Julia + Haskell integration
+### 3️⃣ Run Julia + Haskell integration
 julia schelling_withhaskell.jl
-###📊 Visualization
+### 📊 Visualization
 To plot simulation results:
 julia plot_start_and_finish.jl
